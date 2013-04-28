@@ -1,7 +1,7 @@
 ## Provide your own options or compiler here.
 CC = gcc
 #CC = icc
-CFLAGS += -O2 -g -Wl,-no-as-needed
+CFLAGS += -O3 -g -Wl,-no-as-needed
 
 ## You shouldn't need to edit anything past this point.
 
