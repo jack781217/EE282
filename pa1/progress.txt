@@ -1,0 +1,28 @@
+1. Intermediate Results
+
+N = 16
+MFLOPs:  4385.254
+CPI:  0.36
+L1 Cache Miss Rate:  0
+L2 Cache Miss Rate:  0
+
+N = 256
+MFLOPs:  3153.921
+CPI:   0.52
+L1 Cache Miss Rate:  4655583
+L2 Cache Miss Rate:  767
+
+N = 1024
+MFLOPs:  2520.362
+CPI:   0.65
+L1 Cache Miss Rate:  297444791
+L2 Cache Miss Rate:  4843817
+
+
+2. Optimizations Implemented
+I. SSE2 intrinsics
+Since matrix multiplication is highly parallizable, we use the SSE2 vector operations to speed up the computation. The 128-bit SSE2 registers can contain and operate on two sets of 64-bit floating-point number at the same time, so we made our loop iterates over 2x2 blocks over the entire matrix. We also manipulate the operation orders to better match the vector programming style.
+
+
+II. Blocking
+Ideally, we want to put the blocks of matrix A, B and C all into the L1 cache, we can thus use not only spatial locality but also the temporal locality in the submatrices. Given the L1 cache has a size of 32kB, the maximum block size B should be 3*8*B^2<=32*1024, B is around 32. We will also experiment with different block sizes to achieve the optimal performance.
