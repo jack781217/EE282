@@ -1,0 +1,54 @@
+[H] Starting zsim, version built on Thu May 10 19:48:58 2012
+[H] Creating global segment, 1024 MBs
+[H] Global segment shmid = 10092548
+[H] Deadlock detection ON
+[S 0] Started instance
+[S 0] Limiting concurrent threads to 1
+[S 0] Started RR scheduler, quantum=10000 phases
+[S 0] Initialized system
+[S 0] HDF5 backend: Opening /afs/ir.stanford.edu/users/y/h/yh3483/EE282/pa2/swaptions_wide_6_6_1700_L1_32_4_L2_512_8_L3_8192_16/zsim-ev.h5
+[S 0] HDF5 backend: Created table, 2296 bytes/record, 58 records/write
+[S 0] HDF5 backend: Opening /afs/ir.stanford.edu/users/y/h/yh3483/EE282/pa2/swaptions_wide_6_6_1700_L1_32_4_L2_512_8_L3_8192_16/zsim-cmp.h5
+[S 0] HDF5 backend: Created table, 736 bytes/record, 1 records/write
+[S 0] Initialization complete
+[S 0] Started process, PID 25231
+[S 0] procMask: 0x0
+[S 0] Started scheduler watchdog thread
+[S 0] FF thread 0 starting
+[S 0] FF control Thread TID 25239
+[S 0] vsyscall/vdso intercept: patching gettimeofday on /lib/x86_64-linux-gnu/libc.so.6
+[S 0] vsyscall/vdso intercept: patching time on /lib/x86_64-linux-gnu/libc.so.6
+PARSEC Benchmark Suite
+[S 0] ROI_BEGIN, exiting fast-forward
+[S 0] Adjusted time forward 646610 usecs (clock domain 0)
+[S 0] Adjusted RDTSC forward 1504947983 ticks (clock domain 0)
+[S 0] Thread 0 starting
+[S 0] Thread 3 starting
+[S 0] Thread 4 starting
+[S 0] Thread 5 starting
+[S 0] Thread 6 starting
+[S 0] Thread 7 starting
+[H] Attached to global heap
+[S 0] Max total (aggregate) instructions reached (5000349593)
+[S 0] Termination condition met, exiting
+[H] Child 25231 done
+[H] All children done, exiting
+Cores                  : 6
+Frequency (MHz)        : 1700
+Voltage (V)            : 1.07823
+Area (mm^2)            : 268
+
+Time (s)               : .29117647058823529411
+Total energy (J)       : 13.29734454547420627595
+Energy-Delay Product   : 3.87187385294690123907
+
+Core dynamic energy (J): 7.08122882269431589971
+Core static energy (J) : 2.47456259537849999988
+L1 dynamic energy (J)  : .09734738222788920000
+L1 static energy (J)   : .06642509823529411764
+L2 dynamic energy (J)  : .00520559688987000000
+L2 static energy (J)   : .97402198235294117644
+L3 dynamic energy (J)  : .00250855593069000000
+L3 static energy (J)   : 2.58024864705882352934
+Mem dynamic energy (J) : .00105360000000000000
+Mem static energy (J)  : .01474226470588235294

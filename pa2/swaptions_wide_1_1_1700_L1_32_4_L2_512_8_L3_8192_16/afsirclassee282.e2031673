@@ -1,0 +1,6 @@
+-bash: /afs/ir/users/y/h/yh3483/.profile: Permission denied
+[H] Panic on build/opt/config.cpp:36: Input config file zsim.cfg could not be read
+tee: stats.txt: Permission denied
+grep: zsim.cfg: Permission denied
+grep: zsim.cfg: Permission denied
+cut: stats_args.txt: Permission denied

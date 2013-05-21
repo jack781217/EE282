@@ -1,0 +1,59 @@
+[H] Starting zsim, version built on Thu May 10 19:48:58 2012
+[H] Creating global segment, 1024 MBs
+[H] Global segment shmid = 10518531
+[H] Deadlock detection ON
+[S 0] Started instance
+[S 0] Limiting concurrent threads to 1
+[S 0] Started RR scheduler, quantum=10000 phases
+[S 0] Initialized system
+[S 0] HDF5 backend: Opening /afs/ir.stanford.edu/users/y/h/yh3483/EE282/pa2/art_wide_6_6_1700_L1_32_4_L2_512_8_L3_8192_16/zsim-ev.h5
+[S 0] HDF5 backend: Created table, 2296 bytes/record, 58 records/write
+[S 0] HDF5 backend: Opening /afs/ir.stanford.edu/users/y/h/yh3483/EE282/pa2/art_wide_6_6_1700_L1_32_4_L2_512_8_L3_8192_16/zsim-cmp.h5
+[S 0] HDF5 backend: Created table, 736 bytes/record, 1 records/write
+[S 0] Initialization complete
+[S 0] Started process, PID 1271
+[S 0] procMask: 0x0
+[S 0] FF control Thread TID 1280
+[S 0] Started scheduler watchdog thread
+[S 0] FF thread 0 starting
+[S 0] vsyscall/vdso intercept: patching gettimeofday on /lib/x86_64-linux-gnu/libc.so.6
+[S 0] vsyscall/vdso intercept: patching time on /lib/x86_64-linux-gnu/libc.so.6
+[S 0] vsyscall/vdso intercept: patching clock_gettime on /lib/x86_64-linux-gnu/librt.so.1
+[S 0] FF thread 3 starting
+[S 0] FF thread 4 starting
+[S 0] FF thread 5 starting
+[S 0] FF thread 6 starting
+[S 0] FF thread 7 starting
+[S 0] ROI_BEGIN, exiting fast-forward
+[S 0] Adjusted time forward 3317945 usecs (clock domain 0)
+[S 0] Adjusted RDTSC forward 7722277031 ticks (clock domain 0)
+[S 0] Thread 0 starting
+[S 0] Thread 3 starting
+[S 0] Thread 6 starting
+[S 0] Thread 4 starting
+[S 0] Thread 5 starting
+[S 0] Thread 7 starting
+[H] Attached to global heap
+[S 0] Max total (aggregate) instructions reached (5000257321)
+[S 0] Termination condition met, exiting
+[H] Child 1271 done
+[H] All children done, exiting
+Cores                  : 6
+Frequency (MHz)        : 1700
+Voltage (V)            : 1.07823
+Area (mm^2)            : 268
+
+Time (s)               : 1.01117647058823529411
+Total energy (J)       : 37.03297470257301465273
+Energy-Delay Product   : 37.44687265513118363974
+
+Core dynamic energy (J): 7.08109815200144227649
+Core static energy (J) : 8.59348101304169999988
+L1 dynamic energy (J)  : .08484788678265720000
+L1 static energy (J)   : .23067625023529411764
+L2 dynamic energy (J)  : .04872783715511400000
+L2 static energy (J)   : 3.38251270235294117644
+L3 dynamic energy (J)  : .49308874923916000000
+L3 static energy (J)   : 8.96049984705882352934
+Mem dynamic energy (J) : 8.10684640000000000000
+Mem static energy (J)  : .05119586470588235294
