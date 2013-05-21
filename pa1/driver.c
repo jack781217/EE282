@@ -39,7 +39,9 @@ int test_sizes[] = { 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048 };
 int events[] = { 
   PAPI_TOT_INS,
   PAPI_TOT_CYC,
-  PAPI_L1_DCM,
+  //PAPI_L1_DCA,
+  PAPI_L1_DCM,  
+  //PAPI_L2_TCA,
   PAPI_L2_TCM,
 };
 
